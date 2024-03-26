@@ -1,0 +1,44 @@
+.content-container {
+  display: flex;
+}
+
+.list {
+  min-width: 20%;
+  max-width: 20%;
+  max-height: 50em;
+  list-style: none;
+  margin: 1% 0.5% 1% 0.5%;
+  overflow-y: scroll;
+  font-size: x-large;
+}
+
+.list-item {
+  padding: 1em;
+  border: 1px solid;
+  background-color: #093145;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content-text {
+  margin: 1% 5% 5% 1%;
+}
+
+.text-image-container {
+  display: flex;
+}
+
+.paragraphs {
+  margin-right: 3%;
+  font-size: x-large;
+}
+
+img {
+  border: 1px solid;
+  border-radius: 100%;
+  max-height: 30em;
+  max-width: 30em;
+}
+
+a {
+  font-size: x-large;
+}
